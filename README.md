@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NextJs + MongoDb + Tailwind + NetAuth
+# Promptopia chat gpt prompts sharinga and creating Website
 
-## Getting Started
 
-First, run the development server:
+https://github.com/zohiaby/Promptopia-Full-Stack-Web-App/assets/121012940/d5ce97b0-5250-4a18-bc4a-1a98b914aafa
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This is a simple Responsive  chat gpt prompts sharinga and creating Website created by Zohaib Yasin using React + MongoDb + NextAuth + Tailwind
+## How to Run
 
-## Learn More
+1. **Clone the Repository:**
+    ```
+    git clone https://github.com/zohiaby/Promptopia-Full-Stack-Web-App
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+2. **Open the Project:**
+    - Locate the `FPromptopia-Full-Stack-Web-App ` folder in the project directory.   
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+3. **Navigate to the Project Directory:**
+    ```
+    cd Promptopia-Full-Stack-Web-App
+    ```
 
-## Deploy on Vercel
+4. **Install the Required Dependenies:**
+    ```
+    npm install
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+45. **Run the project:**
+    ```
+    npm run dev
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+    - Then, open your web browser and navigate to `http://localhost:3000`.
+
+## Contact
+
+For any inquiries or feedback, you can reach out to Zohaib Yasin at [zohaiby33@gmail.com](mailto:zohaiby33@gmail.com).
