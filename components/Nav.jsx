@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { signIn, signOut, useSession, getProviders } from "next-auth/react";
+import user from "../public/assets/images/user.png";
 
 const Nav = () => {
   const { data: session } = useSession();
@@ -38,7 +39,7 @@ const Nav = () => {
 
       {/* Desktop Navigation */}
       <div className="sm:flex hidden">
-        {session?.user ? (
+        {!session?.user ? (
           <div className="flex gap-3 md:gap-5">
             <Link href="/create-prompt" className="black_btn">
               Create Post
@@ -50,7 +51,7 @@ const Nav = () => {
 
             <Link href="/profile">
               <Image
-                src={session?.user.image}
+                src={session?.user.image ? session?.user.image : user}
                 width={37}
                 height={37}
                 className="rounded-full"
@@ -80,10 +81,10 @@ const Nav = () => {
 
       {/* Mobile Navigation */}
       <div className="sm:hidden flex relative">
-        {session?.user ? (
+        {!session?.user ? (
           <div className="flex">
             <Image
-              src={session?.user.image}
+              src={session?.user.image ? session?.user.image : user}
               width={37}
               height={37}
               className="rounded-full"
